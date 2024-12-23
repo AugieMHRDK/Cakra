@@ -1,0 +1,50 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('img/BG5.jpg');
+  color: #000;
+  line-height: 1.2;
+}
+
+.container {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: bold;
+  color: #d0021b;
+}
+
+.tujuan-description {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.keunggulan-description {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 15px;
+  }
+
+  .button {
+    padding-top: 75px;
+    display: flex;
+    justify-content: right;
+    padding-right: 25px;
+}
+
+.button .bi-arrow-left-square {
+    color: #000;
+    font-size: 35px;
+}

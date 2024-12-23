@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKP CAKRA</title>
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="home">
+    <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+        <div class="container">
+              <!-- Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="#home">
+            <img src="img/cakralogo-warna.png" alt="CAKRA Logo" class="me-2" style="height: 40px;">
+          </a>
+
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#profil">Profil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#program">Program</a></li>
+                <li class="nav-item"><a class="nav-link" href="#informasi">Informasi</a></li>
+                <li class="nav-item"><a class="nav-link" href="#mitra">Mitra</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                <li class="nav-item"><a class="nav-link" href="#kebijakan">Kebijakan Privasi</a></li>
+              </ul>
+          </div>
+          <!-- Search Icon -->
+          <nav class="navbar navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <form class="d-flex ms-0">
+                    <button id="searchToggle" class="btn btn-outline-dark btn-sm" type="button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
+        </nav>
+    
+        <!-- Search Form -->
+        <div id="searchContainer" class="container mt-3 d-none">
+            <form id="searchForm" class="d-flex">
+                <input id="searchInput" class="form-control me-2" type="text" placeholder="Search here" aria-label="Search">
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+            <div id="searchResults" class="mt-3"></div>
+        </div> 
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+  
+    <div class="section-1">
+      <div class="navbar-border"></div>
+      <section class="container text-left py-5">
+        <h1 class="text-left">BUKA 
+        <br><span class="fw-bold"><em>CAKRA</em>WALA</span></h1>
+        <p class="mt-4">
+          Program <strong>#buka<em>CAKRA</em>wala</strong> dirancang untuk membukakan cakrawala wawasan bagi para pesertanya. 
+          Dengan beragam kegiatan seperti <strong>voucher diskon, sesi privat dengan mentor berpengalaman,</strong> dan profil mentor inspiratif, 
+          program ini bertujuan untuk <strong>memberikan pengetahuan baru dan mendalam di berbagai bidang.</strong> 
+          Testimoni peserta sebelumnya akan menambah nilai dengan berbagi pengalaman berharga mereka. Melalui program ini, diharapkan peserta dapat 
+          <strong>memperluas pemahaman dan keterampilan</strong> mereka secara efektif.
+        </p>
+
+        <div class="container">
+            <div class="d-flex justify-content-left gap-3">
+                <!-- Button 1 -->
+                <div class="button-wrapper">
+                    <a href="vm.html" class="btn btn-red">Visi & Misi</a>
+                </div>
+                <!-- Button 2 -->
+                <div class="button-wrapper">
+                    <a href="tk.html" class="btn btn-red">Tujuan & Keunggulan</a>
+                </div>
+            </div>
+        </div>
+        </section>
+        <div class="navbar-border"></div>
+    </div>
+  </section>
+    
+  <div class="section-2">
+    <div class="container">
+      <div class="row text-center">
+          <!-- Feature 1 -->
+          <div class="col-md-4">
+            <div class="feature-item">
+                <img src="img/user.png" alt="Pengajar Kompeten" class="mb-3" style="filter: invert(11%) sepia(100%) saturate(5532%) hue-rotate(348deg) brightness(84%) contrast(104%); width: 70px;">
+                <h5 class="fw-bold">Pengajar Kompeten</h5>
+                <p class="text-dark">
+                Kami memiliki Pengajar yang Kompeten di bidangnya. Berpengalaman puluhan tahun di dunia menjahit, membatik dan garment. Sehingga mempermudah anda dalam belajar, bahkan untuk pemula sekalipun.
+                </p>
+            </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-md-4">
+            <div class="feature-item">
+                <img src="img/imac.png" alt="Media Terbaik" class="mb-3" style="filter: invert(11%) sepia(100%) saturate(5532%) hue-rotate(348deg) brightness(84%) contrast(104%); width: 70px;">
+                <h5 class="fw-bold">Media Terbaik</h5>
+                <p class="text-dark">
+                Yayasan Pendidikan Cakra Surakarta memiliki Sarana dan Prasarananya yang sangat memadai. Anda akan di bimbing langsung menggunakan mesin-mesin terbaru, serta ruangan yang nyaman.
+                </p>
+            </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-md-4">
+            <div class="feature-item">
+                <img src="img/money.png" alt="Biaya Terjangkau" class="mb-3" style="filter: invert(11%) sepia(100%) saturate(5532%) hue-rotate(348deg) brightness(84%) contrast(104%); width: 70px;">
+                <h5 class="fw-bold">Biaya Terjangkau</h5>
+                <p class="text-dark">
+                Tidak perlu mengeluarkan biaya yang mahal untuk belajar menjahit dengan sarana dan prasarana terbaik, instruktur yang kompeten di bidangnya, di Yayasan Pendidikan Cakra Surakarta Biayanya Terjangkau.
+                </p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="profil">
+    <div class="section-3">
+      <div class="navbar-border"></div>
+      <div class="container">
+        <div class="row g-5 align-items-center">
+            
+            <!-- Image Section -->
+            <div class="col-md-6">
+                <div class="image-wrapper">
+                    <img src="img/2024_11_16_09_17_IMG_4117.JPG" alt="People having food" class="img-fluid rounded-4 shadow">
+                </div>
+            </div>
+            
+            <!-- Text Section -->
+            <div class="col-md-6 ">
+              <div class="text-justify">
+                <p>
+                  <strong>Lembaga Pelatihan Cakra</strong> bergerak di bidang pelatihan sejak tahun 2010. Berlokasi di Surakarta, Jawa Tengah, kami memiliki <strong>sarana dan prasarana</strong> yang <strong>memastikan kualitas pelatihan</strong> kami.
+                  <br>
+                  Mulai dari area <strong>pembelajaran daring</strong> serta <strong>luring</strong>, hingga <strong>fasilitas pendukung</strong> lainnya. Hanya satu tujuan kami, <strong>memberikan layanan pelatihan dengan kualitas terbaik</strong> bagi seluruh peserta.</br>
+              </p>
+              </div>  
+            </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  
+<section id="kelas">
+  <div class="section-4">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/Artboard 2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 4.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 5.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 6.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 7.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 8.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 9.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 10.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 11.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 12.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/Artboard 13.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+  <div class="section-5">
+    <section id="program">
+      <div class="container-xxl py-3">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="text-center">Program pendidikan</h1>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/tb.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/tb.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-4 border-danger border-top-0 p-4">
+                            <p class="text-center fw-medium mb-1">Tata busana</p>
+                            <h5 class="lh-base mb-0 text-center">Tata Busana (Fashion Design) memungkinkan anda menjadi perancang busana atau desainer, pattern maker</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/jht.jpg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/jht.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-4 border-danger border-top-0 p-4">
+                            <p class="text-center fw-medium mb-1">Menjahit Garment</p>
+                            <h5 class="lh-base mb-0 text-center">Jika kamu ingin cepat bekerja di perusaan textile, program ini mengajarkan tentang proses pembuatan produk fashion dari awal</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/btk.jpeg" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1" href="img/btk.jpeg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="border border-4 border-danger border-top-0 p-4">
+                            <p class="text-center fw-medium mb-1">Membatik</p>
+                            <h5 class="lh-base mb-0 text-center">Jika ingin menjadi Pengusaha Batik, seniman,dan memiliki pasion di dunia batik program ini sangat cocok buat kamu.</a>
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+  </section>
+  </div>  
+    
+  
+  <section id="informasi">
+  <div class="section-6">  
+    <div class="container">
+        <div class="cerita-peserta">
+          <h1 class="text-center"><b>Cerita</b> Peserta </h1>
+        <h6 class="text-center"> Simak Cerita Peserta kami tentang pengalaman <br> mereka mengikuti program kelas di <strong>LKP Cakra Surakarta</strong></h6>
+        </div>
+    <div class="card-list">
+        <div class="card">
+            <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                    <img src="img/t.jpg" alt="" class="card-img">
+                </div>
+            </div>
+            <div class="card-content">
+                <h2 class="name">Eko</h2>
+                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, delectus, quasi fugit tempora laboriosam asperiores maxime quia eaque vero a dolorum architecto aut quos dicta amet nam! Aspernatur, quaerat cupiditate?</p>
+            </div>
+          </div>
+        <div class="card card-middle">
+          <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                  <img src="img/t.jpg" alt="" class="card-img">
+              </div>
+          </div>
+          <div class="card-content">
+              <h2 class="name">Eko</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, delectus, quasi fugit tempora laboriosam asperiores maxime quia eaque vero a dolorum architecto aut quos dicta amet nam! Aspernatur, quaerat cupiditate?</p>
+          </div>
+      </div>
+        <div class="card">
+          <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                  <img src="img/t.jpg" alt="" class="card-img">
+              </div>
+          </div>
+          <div class="card-content">
+              <h2 class="name">Eko</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, delectus, quasi fugit tempora laboriosam asperiores maxime quia eaque vero a dolorum architecto aut quos dicta amet nam! Aspernatur, quaerat cupiditate?</p>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <div class="section-7">  
+    <section id="mitra">
+      <div class="mitra-kami py-5">
+        <div class="container-xl">
+            <div class="row align-items-center">
+                <!-- Kolom Kiri: Teks -->
+                <div class="left-content col-md-6 text-white text-justify">
+                    <h1 class="fw-bold mb-4 text-light">Mitra Kami</h1>
+                    <p>
+                        Selain membuka pelatihan kursus menjahit secara offline / luring, kami juga bekerjasama dengan karier.mu untuk pembelajaran daring / online.
+                    </p>
+                    <p>
+                        Karier.mu adalah platform peningkatan dan pengembangan karier dari Sekolah.mu yang berbasis teknologi dan berkolaborasi untuk menyediakan program pelatihan bagi semua orang.
+                    </p>
+                    <p>
+                        Anda juga dapat mengikuti pelatihan dari karier.mu menggunakan Kartu Prakerja yang anda miliki.
+                    </p>
+                    <!-- Tombol Baca Selengkapnya -->
+                    <a href="kp.html" class="btn btn-light btn-rounded px-4 py-2 mt-3">Baca Selengkapnya</a>
+                </div>
+                <!-- Kolom Kanan: Logo Mitra -->
+                <div class="right-content col-md-6 d-flex justify-content-center">
+                    <div class="white-box p-5">
+                        <div class="row text-center">
+                            <div class="col-8 p-3">
+                                <img src="img/ICON PRAKERJA.png" alt="Prakerja Logo" class="img-fluid">
+                            </div>
+                            <div class="col-4">
+                                <img src="img/ICON TUT WURI.png" alt="Kemendikbud Logo" class="img-fluid">
+                            </div>
+                            <div class="col-8">
+                                <img src="img/ICON KARIERMU.png" alt="Karier.mu Logo" class="img-fluid">
+                            </div>
+                            <div class="col-4">
+                                <img src="img/ICON SRITEX.png" alt="Spiltex Logo" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="section-8">  
+    <div class="video-section">
+        <!-- Container Utama -->
+    <div class="container text-center mt-5">
+      <!-- Judul -->
+      <h1 class="title">
+          <span class="fw-bold">Pengalaman</span> Belajar
+      </h1>
+
+      <!-- Video Card -->
+      <div class="video-card mx-auto position-relative">
+          <!-- Video -->
+          <video id="video" class="w-100" poster="poster.jpg" controls>
+              <source src="img/sumber fina 2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+  </div>
+    </div>
+  </div>  
+
+
+      <div class="section-9">
+        <div class="image-tp">
+          <h1><b>Tenaga</b> Pelatih </h1>
+          <h6> Bertemu langsung dengan Tenaga Pelatih <strong>LKP Cakra Surakarta</strong><br> yang ahli dan berpengalaman dalam bidangnya</h6>
+          <div class="container-tp">  
+            <!-- Card 1 -->
+            <div class="card-tp" style="background-image: url('img/foto_Ari\ Hilmia.png');">
+                <div class="text-overlay">
+                  <hr>  
+                  <h2>Card 1</h2>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="card-tp card-middle" style="background-image: url('img/Foto\ pak\ Aris.jpg');">
+                <div class="text-overlay">
+                  <hr>
+                  <h2>Card 2</h2>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="card-tp" style="background-image: url('img/foto\ novin.jpg');">
+                <div class="text-overlay">
+                  <hr>  
+                  <h2>Card 3</h2>
+                </div>
+            </div>
+        </div>
+          <div class="col-12 btn-below">
+            <a href="daftar_tp.html" class="btn btn-danger">Lihat Selengkapnya</a>
+          </div>
+       </div>
+    </div>
+        
+      <div class="section-10">
+        <div class="container">
+          <div class="sarpras">
+            <h1><b>Sarana &</b><br> Prasarana</h1>
+          </div>
+        <div class="list-box">
+            <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="img/mushola.jpg" alt="" class="box-img">
+                  </div>
+                  <div class="name-box">Mushola</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="img/2024_11_16_09_17_IMG_4117.JPG" alt="" class="box-img">
+                  </div>
+                  <div class="name-box">Gedung</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="img/laptop.jpg" alt="" class="box-img">
+                  </div>
+                  <div class="name-box">Laptop</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="img/jahit.jpg" alt="" class="box-img">
+                  </div>
+                  <div class="name-box">Mesin Jahit</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="img/webinar.jpeg" alt="" class="box-img">
+                  </div>
+                  <div class="name-box">Ruang Webinar</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                  <div class="box-image">
+                    <img src="img/kantor.JPG" alt="" class="box-img">
+                  </div>
+                  <div class="name-box">Kantor</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section id="kebijakan">
+      <div class="section-11">
+        <div class="container">
+            <div class="coprof">
+              <h1><b>Company</b><br> Profile </h1>
+              <p>Lembaga Pelatihan Cakra berdiri sejak tahun 2010 dan bergerak dalam pendidikan menjahit tata busana, menjahit garmen, membatik, manajemen dan perbankan, serta tata boga dengan prinsip penempatan kerja dan pembinaan wirausaha bagi lulusannya. Hingga tahun 2021 jumlah lulusan Lembaga Pelatihan Cakra melebihi 900 peserta didik dan semua sudah ditempatkan bekerja maupun mendirikan usaha mandiri.</p> 
+              <p>Sebagai Lembaga Kursus dan Pelatihan berpengalaman yang didukung oleh jaringan mitra IDUKA (Industri dan Dunia Kerja) yang kuat dan SDM yang berkualitas, kami selalu memprioritaskan kualitas. Adanya keinginan kuat untuk selalu dinamis menyesuaikan dengan perkembangan kebutuhan IDUKA, tim manajemen Lembaga Pendidikan CAKRA diharuskan memiliki keahlian dan ketelatenan ekstra baik mengikuti perkembangan teknologi, meningkatkan SDM dan pembelajaran yang digunakan sesuai dengan kebutuhan IDUKA.</p>
+            </div>
+          </div>
+        <div class="logo-cp">
+          <img src="img/Cakra Logo Background Hitam.png" alt="" class="img-cp">
+        </div>
+        
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+      </div>
+    </section>
+</body>
+<footer class="footer text-dark py-3">
+  <div class="section-12">
+  <div class="container">
+    <section id="kontak">
+      <div class="row">
+        <!-- Logo and Social Media -->
+        <div class="col-md-3 text-left text-md-start">
+          <img src="img/cakralogo-warna.png" alt="LKP Cakra Logo" class="mb-5">
+          <h6 class="text-danger">Social Media</h6>
+          <div class="d-flex justify-content-left justify-content-md-start gap-2">
+            <a class="btn btn-outline-danger btn-social" href="https://www.instagram.com/lkp.cakra.surakarta/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-danger btn-social" href="https://www.facebook.com/lkpcakra.surakarta/"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-danger btn-social" href="https://www.youtube.com/@lkpcakrasurakarta9512"><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-danger btn-social" href="https://id.linkedin.com/in/lkp-cakra-surakarta-a4b51a2a3"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- LKP Cakra Links -->
+        <div class="col-md-2">
+          <h6 class="text-danger">LKP Cakra</h6>
+          <ul class="list-unstyled">
+            <li><a href="#home" class="text-dark text-decoration-none">Home</a></li>
+            <li><a href="#program" class="text-dark text-decoration-none">Program</a></li>
+            <li><a href="#kelas" class="text-dark text-decoration-none">Kelas</a></li>
+          </ul>
+        </div>
+
+        <!-- Tentang Links -->
+        <div class="col-md-2">
+          <h6 class="text-danger">Tentang</h6>
+          <ul class="list-unstyled">
+            <li><a href="#profil" class="text-dark text-decoration-none">Profil</a></li>
+            <li><a href="vm.html" class="text-dark text-decoration-none">Visi & Misi</a></li>
+            <li><a href="#informasi" class="text-dark text-decoration-none">Informasi</a></li>
+          </ul>
+        </div>
+
+        <!-- Kontak Info -->
+        <div class="col-md-5 text-left text-md-start">
+          <h6 class="text-danger">Kontak</h6>
+          <p class="mb-0"><i class="fa fa-envelope me-3"></i>lkpcakrasurakarta@gmail.com</p>
+          <p class="mb-0"><i class="fa fa-phone-alt me-3"></i>(+62) 813 2934 8755</p>
+          <p class="mb-0"><i class="fa fa-map-marker-alt me-3"></i>Jl. Kahuripan Utara Raya No.7 Sumber, Banjarsari, Surakarta</p>
+        </div>
+      </div>
+    </section>
+    </div>
+  </div>
+  
+    <!-- Footer Bottom -->
+    <div class="text-center mt-4">
+      <small>2024 LKP Cakra Surakarta. All rights reserved.</small>
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.js"></script>
+  <script src="js/popper.min.js"></script>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+
+</html>
