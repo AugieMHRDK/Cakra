@@ -56,22 +56,4 @@ document.getElementById("searchToggle").addEventListener("click", function () {
     searchContainer.classList.toggle("d-none");
 });
 
-// Handle search form submission
-document.getElementById("searchForm").addEventListener("submit", function (event) {
-    event.preventDefault();
-    const query = document.getElementById("searchInput").value.trim();
-    const searchResults = document.getElementById("searchResults");
-
-    // Clear previous results
-    searchResults.innerHTML = "";
-
-    if (query) {
-        const result = document.createElement("p");
-        result.textContent = `You searched for: "${query}"`;
-        searchResults.appendChild(result);
-    } else {
-        searchResults.textContent = "Please enter a search term.";
-    }
-});
-
 })(jQuery);

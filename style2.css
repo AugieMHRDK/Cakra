@@ -7,16 +7,13 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-image: url('img/BG5.jpg');
+  background-image: url("img/BG5.jpg");
   color: #000;
   line-height: 1.2;
 }
 
 .container {
-  margin-top: 100px;
-  margin-bottom: 80px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding: 100px;
 }
 
 h1 {
@@ -28,7 +25,6 @@ h1 {
 .visi-description {
   font-size: 1.2rem;
   color: #000;
-  margin-bottom: 15px;
 }
 
 .misi-list {
@@ -43,12 +39,12 @@ h1 {
 }
 
 .button {
-    display: flex;
-    justify-content: right;
-    padding-right: 25px;
+  display: flex;
+  justify-content: right;
+  padding-right: 25px;
 }
 
 .button .bi-arrow-left-square {
-    color: #000;
-    font-size: 35px;
+  color: #000;
+  font-size: 35px;
 }

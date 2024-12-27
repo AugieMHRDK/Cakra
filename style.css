@@ -33,27 +33,6 @@
   color: #d0021b;
 }
 
-/* Search Button */
-/* Search Form Styling */
-#searchContainer {
-  transition: all 0.3s ease-in-out;
-}
-
-#searchForm {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#searchContainer.d-none {
-  opacity: 0;
-  visibility: hidden;
-}
-
-#searchContainer:not(.d-none) {
-  opacity: 1;
-  visibility: visible;
-}
-
 /* Bottom Red Border */
 .navbar-border {
   height: 3px;
@@ -259,6 +238,10 @@ p {
   background-position: bottom;
 }
 
+.section-6 .container {
+  padding-bottom: 30px;
+}
+
 .cerita-peserta {
   padding-top: 5px;
 }
@@ -278,90 +261,16 @@ h6 {
   margin-bottom: 30px;
 }
 
-.card-list {
-  justify-content: center;
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 80px;
-  gap: 50px;
+.section-6 .card {
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 
-.card {
-  height: 320px;
-  width: 280px;
-  border-radius: 25px;
-  background-color: #fff;
-}
-
-.image-content,
-.card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 15px 14px;
-}
-
-.image-content {
-  position: relative;
-  row-gap: 50px;
-  padding: 25px;
-}
-
-.overlay {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: rgb(0, 0, 126);
-  border-radius: 25px 25px 25px 25px;
-}
-
-.card-image {
-  position: relative;
-  height: 160px;
-  width: 160px;
-  border-radius: 50%;
-  background: #fff;
-}
-
-.card-image .card-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.name {
-  font-size: 20px;
-  font-weight: 700;
-  color: #d0021b;
-}
-
-.description {
-  font-size: 9px;
-  color: #d0021b;
-  text-align: center;
-}
-
-.card-list .card-middle {
-  margin-top: 35px; /* Atur tinggi sesuai keinginan */
-  z-index: 1; /* Menjaga posisi card di atas */
-}
-
-/* Media Queries untuk Responsif */
-@media (max-width: 1024px) {
-  .container .card-list {
-    justify-content: space-around; /* Card tersebar rata */
-  }
-}
-
+/* Responsif */
 @media (max-width: 768px) {
-  .container .card-list {
-    flex-direction: column; /* Card menumpuk vertikal */
-    align-items: center; /* Pusatkan card */
+  .title {
+    font-size: 1.5rem;
   }
 }
 
