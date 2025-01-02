@@ -145,17 +145,62 @@ p {
   background-size: 110vw 128vh;
 }
 
-.carousel-item img {
-  width: 100%; /* Lebar penuh */
-  height: 640px; /* Atur tinggi sesuai kebutuhan */
-  padding-top: 0px;
-  padding-bottom: 0px;
+.webinar-card {
+  height: 280px;
+  width: 210px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-@media (max-width: 768px) {
-  .carousel-item img {
-    height: 400px; /* Kurangi tinggi untuk perangkat kecil */
-  }
+.webinar-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-imgweb-top {
+  height: 125px;
+  object-fit: cover;
+}
+
+.card-ket {
+  padding: 1px;
+  padding-left: 15px;
+  font-size: 10px;
+  color: white;
+  background-image: radial-gradient(circle farthest-corner at 17.1% 22.8%, rgba(160, 6, 6, 1) 0%, rgba(226, 24, 24, 1) 90%);
+}
+
+.card-ket2 {
+  padding: 1px;
+  padding-left: 15px;
+  font-size: 10px;
+  color: white;
+  background-image: linear-gradient(107.7deg, rgb(238, 148, 13) 8.4%, rgba(252, 191, 23, 0.86) 90.3%);
+}
+
+.card-title {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 15px;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 10px;
+  color: #dc3545;
+  font-weight: bold;
 }
 
 /*** Project Portfolio ***/
@@ -171,6 +216,17 @@ p {
 .section-5 h1 {
   color: #fff;
   padding-bottom: 50px;
+}
+
+.carousel-item img {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 400px; /* Kurangi tinggi untuk perangkat kecil */
+  }
 }
 
 #portfolio-flters li {
@@ -265,6 +321,7 @@ h6 {
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  border: none;
 }
 
 /* Responsif */
