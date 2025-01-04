@@ -154,8 +154,8 @@ p {
 }
 
 .webinar-card {
-  height: 280px;
-  width: 210px;
+  height: 350px;
+  width: 100%;
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -164,51 +164,59 @@ p {
 
 .webinar-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card-imgweb-top {
-  height: 125px;
+  height: 150px;
   object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-ket,
+.card-ket2 {
+  padding: 1px;
+  padding-left: 17px;
+  font-size: 12px;
+  color: white;
 }
 
 .card-ket {
-  padding: 1px;
-  padding-left: 17px;
-  font-size: 10px;
-  color: white;
   background-image: radial-gradient(circle farthest-corner at 17.1% 22.8%, rgba(160, 6, 6, 1) 0%, rgba(226, 24, 24, 1) 90%);
 }
 
 .card-ket2 {
-  padding: 1px;
-  padding-left: 17px;
-  font-size: 10px;
-  color: white;
   background-image: linear-gradient(107.7deg, rgb(238, 148, 13) 8.4%, rgba(252, 191, 23, 0.86) 90.3%);
 }
 
 .card-title {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .card-text {
-  font-size: 15px;
+  font-size: 13px;
   color: #6c757d;
   margin-bottom: 10px;
 }
 
 .rating {
-  font-size: 10px;
+  font-size: 12px;
   margin-bottom: 5px;
 }
 
 .price {
-  font-size: 10px;
+  font-size: 14px;
   color: #dc3545;
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .card-imgweb-top {
+    height: 120px;
+  }
 }
 
 /*** Project Portfolio ***/
