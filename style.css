@@ -95,8 +95,8 @@ p {
 }
 
 .section-2 .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .feature-item h5 {
@@ -105,10 +105,10 @@ p {
 }
 
 .feature-item p {
-  font-size: 10px;
-  line-height: 1.6;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 13px;
+  line-height: 1.5;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .feature-item img {
@@ -659,7 +659,7 @@ hr {
 
 .back-to-top {
   position: fixed;
-  display: flex;
+  display: flex; /* Awalnya tersembunyi */
   right: 45px;
   bottom: 45px;
   z-index: 99;

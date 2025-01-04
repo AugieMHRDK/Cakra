@@ -15,17 +15,23 @@
     });
     
     
-    // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-        return false;
+    $(document).ready(function () {
+        // Tampilkan tombol saat scroll lebih dari 300px
+        console.log("jQuery Loaded");
+        $(window).scroll(function () {
+            console.log("Scroll Top:", $(this).scrollTop());
+            if ($(this).scrollTop() > 300) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+        });
+    
+        // Scroll ke atas saat tombol diklik
+        $('.back-to-top').click(function (e) {
+            e.preventDefault(); // Mencegah aksi default
+            $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
+        });
     });
 
     // Testimonials carousel
