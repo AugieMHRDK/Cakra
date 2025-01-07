@@ -9,6 +9,14 @@
   overflow-x: hidden;
 }
 
+.navbar {
+  position: sticky;
+  position: webkit-sticky;
+  top: 0px;
+  transition: top 0.3s ease;
+  border-bottom: 3px solid #d0021b;
+}
+
 .custom-navbar {
   background-image: url("img/BG5.jpg");
   margin: auto;
